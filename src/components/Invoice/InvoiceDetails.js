@@ -164,7 +164,7 @@ export default function InvoiceDetails() {
           id="pagetodownload"
           ref={componentRef}
         >
-          <img src={logo} style={{ maxHeight: "275px" }} />
+          <img src={logo} style={{ maxWidth: "100%", height:"auto" }} />
           <Container>
             <Grid
               container
@@ -284,7 +284,7 @@ export default function InvoiceDetails() {
               </div>
             </div>
           </form>
-          <img src={footer} style={{ maxHeight: "275px" }} />
+          <img src={footer} style={{ maxWidth: "100%", height:"auto" }} />
         </div>
       )}
     </div>
